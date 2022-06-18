@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_atoms_brand_feature_illustrations",
+  "info": {
+    "displayName": "brand_feature_illustration",
+    "icon": "cannabis"
+  },
+  "options": {},
+  "attributes": {
+    "illustration_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "illustration_desc": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

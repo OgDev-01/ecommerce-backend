@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_atoms_links",
+  "info": {
+    "displayName": "link",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "default": "internal"
+    },
+    "link_icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "with_icon": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_pages_homes",
+  "info": {
+    "displayName": "home",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "collections": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-collections"
+    },
+    "main_hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-main-hero"
+    },
+    "open_fashion_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-open-fashion"
+    },
+    "brand_illustration": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.brand-feature-illustration"
+    },
+    "hero_button_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.link"
+    },
+    "section_sponsor_img": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-sponsors-image"
+    }
+  }
+}
