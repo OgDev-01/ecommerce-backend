@@ -2,16 +2,18 @@
   "collectionName": "components_sections_section_main_heroes",
   "info": {
     "displayName": "section_main_hero",
-    "icon": "bold"
+    "icon": "bold",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "hero_title": {
       "type": "string"

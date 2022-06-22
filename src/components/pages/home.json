@@ -12,11 +12,6 @@
       "repeatable": false,
       "component": "sections.section-collections"
     },
-    "main_hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "sections.section-main-hero"
-    },
     "open_fashion_section": {
       "type": "component",
       "repeatable": false,
@@ -36,6 +31,11 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.section-sponsors-image"
+    },
+    "main_hero_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.section-main-hero"
     }
   }
 }

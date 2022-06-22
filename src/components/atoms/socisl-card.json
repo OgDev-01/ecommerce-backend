@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_atoms_socisl_cards",
+  "info": {
+    "displayName": "socisl_card",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "card_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "social_handle": {
+      "type": "string"
+    }
+  }
+}
