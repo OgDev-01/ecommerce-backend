@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "blog"
+    "displayName": "blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,16 +17,12 @@
       "required": true
     },
     "cover_image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "author": {
-      "type": "string",
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "blod_details": {
       "type": "richtext",
@@ -40,6 +37,12 @@
       "relation": "oneToMany",
       "target": "api::category.category",
       "mappedBy": "blog"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "blogs"
     }
   }
 }

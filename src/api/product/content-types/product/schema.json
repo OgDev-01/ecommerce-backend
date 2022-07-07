@@ -50,12 +50,24 @@
       "required": true
     },
     "rating": {
-      "type": "biginteger",
+      "type": "integer",
       "required": true
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "colors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::color.color",
+      "inversedBy": "products"
+    },
+    "sizes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::size.size",
+      "mappedBy": "product"
     }
   }
 }
